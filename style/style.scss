@@ -1,5 +1,77 @@
 @import 'clear-styles';
 @import 'container';
-@import 'media-quaers';
+@import 'media-queries';
 
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+.header {
+    padding-top: 20px;
+}
+
+.logo {
+    width: auto;
+    max-width: 112px;
+    height: auto;
+}
+
+.advertising {
+    padding-top: 97px;
+
+    &__icons {
+        display: flex;
+        gap: 40px;
+
+        .icon {
+            display: flex;
+            gap: 10px;
+        }
+
+        img {
+            width: 22px;
+            height: 22px;
+        }
+
+        .icon-text {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            color: #000;
+        }
+    }
+
+    &__information {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        width: auto;
+        max-width: 570px;
+
+        h1 {
+            padding-top: 20px;
+            font-family: "Roboto Slab", sans-serif;
+            font-weight: 700;
+            font-size: 80px;
+            line-height: 101%;
+            color: #000;
+        }
+
+    }
+
+    &__text {
+        padding-top: 32px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #000;
+    }
+
+
+
+
+}

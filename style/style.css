@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a:active, a:focus {
+  outline: none;
+}
+
+input, textarea {
+  outline: none;
+}
+
+input:active, textarea:active {
+  outline: none;
+}
+
+:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+textarea {
+  resize: horizontal;
+}
+
+/* Контейнер */
+/* One */
+.container {
+  width: 100%;
+  max-width: 1270px;
+  padding: 0 70px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Two */
+@media (max-width: 1240px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+/* Three */
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+/* Four */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+.header {
+  padding-top: 20px;
+}
+
+.logo {
+  width: auto;
+  max-width: 112px;
+  height: auto;
+}
+
+.advertising {
+  padding-top: 97px;
+}
+.advertising__icons {
+  display: flex;
+  gap: 40px;
+}
+.advertising__icons .icon {
+  display: flex;
+  gap: 10px;
+}
+.advertising__icons img {
+  width: 22px;
+  height: 22px;
+}
+.advertising__icons .icon-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #000;
+}
+.advertising__information {
+  display: flex;
+  justify-content: space-between;
+}
+.advertising__info {
+  width: auto;
+  max-width: 570px;
+}
+.advertising__info h1 {
+  padding-top: 20px;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101%;
+  color: #000;
+}
+.advertising__text {
+  padding-top: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
