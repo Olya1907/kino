@@ -187,4 +187,103 @@ textarea {
   font-size: 20px;
   line-height: 150%;
   color: #000;
+}
+
+.quote__image {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.quote img {
+  width: auto;
+}
+
+h2 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101%;
+  color: #000;
+}
+
+.course {
+  padding-top: 160px;
+}
+.course__information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 53px;
+}
+.course__info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 662px;
+}
+.course__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+}
+.course img {
+  width: auto;
+  max-width: 366px;
+}
+.course__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 95px;
+}
+.course__description img {
+  width: auto;
+  max-width: 219px;
+}
+.course .desc {
+  width: 150px;
+}
+.course .main {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #000;
+}
+.course .second {
+  padding-top: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000;
+}
+
+.format {
+  padding-top: 160px;
+}
+.format__information {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 125px;
+}
+.format__info {
+  max-width: 270px;
+}
+.format__main {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #1e4681;
+}
+.format__second {
+  padding-top: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */

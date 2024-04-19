@@ -70,8 +70,128 @@
         line-height: 150%;
         color: #000;
     }
+}
+
+.quote {
+
+    &__image {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: auto;
+    }
+}
+
+h2 {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101%;
+    color: #000;
+}
+
+.course {
+    padding-top: 160px;
+
+    &__information {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-top: 53px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        max-width: 662px;
+    }
+
+    &__text {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #000;
+    }
+
+    img {
+        width: auto;
+        max-width: 366px;
+    }
 
 
+    &__description {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
+        padding-top: 95px;
+
+        img {
+            width: auto;
+            max-width: 219px;
+        }
+    }
+
+    .desc {
+        width: 150px;
+    }
+
+    .main {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 130%;
+        color: #000;
+    }
+
+    .second {
+        padding-top: 8px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: #000;
+    }
 
 }
+
+.format {
+    padding-top: 160px;
+
+    &__information {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 125px;
+    }
+
+    &__info {
+        max-width: 270px;
+    }
+
+    &__main {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 130%;
+        color: #1e4681;
+    }
+
+    &__second {
+        padding-top: 8px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: #000;
+    }
+
+}
+
+.knowledge {}
