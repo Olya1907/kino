@@ -286,4 +286,131 @@ h2 {
   font-size: 18px;
   line-height: 130%;
   color: #000;
+}
+
+.knowledge {
+  padding-top: 155px;
+  /* Переопределение стилей маркированного списка */
+}
+.knowledge__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.knowledge__info {
+  display: flex;
+  justify-content: space-between;
+}
+.knowledge__text {
+  width: 100%;
+  max-width: 660px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+}
+.knowledge__image {
+  padding-top: 160px;
+}
+.knowledge .specific-list-class ul {
+  list-style: disc;
+}
+.knowledge .specific-list-class li {
+  list-style: disc;
+  color: #333;
+  /* Установка цвета текста пунктов списка */
+}
+
+.reviews {
+  padding-top: 90px;
+  padding-bottom: 110px;
+  background: #efefef;
+}
+.reviews h2 {
+  padding-bottom: 70px;
+}
+.reviews__info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 790px;
+  padding: 40px 45px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.reviews__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+}
+.reviews__author {
+  display: flex;
+  padding-top: 40px;
+  gap: 30px;
+}
+.reviews__signature {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 101%;
+  color: #000;
+}
+.reviews__facebook {
+  width: auto;
+  max-width: 31px;
+}
+
+.sale {
+  padding-top: 180px;
+  padding-bottom: 200px;
+  background: #9dc9c8;
+}
+.sale__data {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101%;
+  color: #000;
+}
+.sale__costs {
+  padding-top: 64px;
+}
+.sale__cost {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 101%;
+  color: #000;
+}
+.sale__conditions {
+  padding-top: 75px;
+  display: flex;
+  gap: 70px;
+}
+.sale__condition {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 295px;
+}
+.sale__main {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101%;
+  color: #000;
+}
+.sale__second {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 101%;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */

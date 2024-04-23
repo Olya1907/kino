@@ -194,4 +194,156 @@ h2 {
 
 }
 
-.knowledge {}
+.knowledge {
+    padding-top: 155px;
+
+    &__heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        width: 100%;
+        max-width: 660px;
+
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #000;
+    }
+
+    &__image {
+        padding-top: 160px;
+    }
+
+    /* Переопределение стилей маркированного списка */
+    .specific-list-class ul {
+        list-style: disc;
+    }
+
+    .specific-list-class li {
+        list-style: disc;
+        color: #333;
+        /* Установка цвета текста пунктов списка */
+    }
+
+}
+
+.reviews {
+    padding-top: 90px;
+    padding-bottom: 110px;
+    background: #efefef;
+
+    h2 {
+        padding-bottom: 70px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        max-width: 790px;
+        padding: 40px 45px;
+
+        background: #FFFFFF;
+        border-radius: 30px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    &__text {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #000;
+    }
+
+    &__author {
+        display: flex;
+        padding-top: 40px;
+        gap: 30px;
+    }
+
+    &__signature {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: "Roboto Slab", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 101%;
+        color: #000;
+    }
+
+
+    &__facebook {
+        width: auto;
+        max-width: 31px;
+
+    }
+}
+
+.sale {
+    padding-top: 180px;
+    padding-bottom: 200px;
+    background: #9dc9c8;
+
+    &__data {
+        font-family: "Roboto Slab", sans-serif;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 101%;
+        color: #000;
+    }
+
+    &__costs {
+        padding-top: 64px;
+    }
+
+    &__cost {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 101%;
+        color: #000;
+    }
+
+    &__conditions{
+        padding-top: 75px;
+        display: flex;
+        gap: 70px;
+
+    }
+
+    &__condition {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        width: 100%;
+        max-width: 295px;
+    }
+
+    &__main {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101%;
+        color: #000;}
+
+    &__second {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101%;
+        color: #000;
+    }
+
+}
