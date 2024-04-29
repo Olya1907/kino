@@ -413,4 +413,52 @@ h2 {
   font-size: 18px;
   line-height: 101%;
   color: #000;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 45px;
+  background: #000;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__networks {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding-top: 30px;
+}
+.footer__network {
+  width: 35px;
+}
+.footer__copyright {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 101%;
+  color: #fff;
+}
+.footer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101%;
+  color: #fff;
+}
+.footer___right {
+  -moz-column-gap: 18px;
+       column-gap: 18px;
+}
+.footer__connection {
+  display: flex;
+}
+.footer__icon {
+  width: 27px;
 }/*# sourceMappingURL=style.css.map */

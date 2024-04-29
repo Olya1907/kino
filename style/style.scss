@@ -315,7 +315,7 @@ h2 {
         color: #000;
     }
 
-    &__conditions{
+    &__conditions {
         padding-top: 75px;
         display: flex;
         gap: 70px;
@@ -336,7 +336,8 @@ h2 {
         font-weight: 400;
         font-size: 25px;
         line-height: 101%;
-        color: #000;}
+        color: #000;
+    }
 
     &__second {
         font-family: "Roboto", sans-serif;
@@ -346,4 +347,60 @@ h2 {
         color: #000;
     }
 
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background: #000;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__networks {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+        padding-top: 30px;
+    }
+
+    &__network {
+        width: 35px;
+    }
+
+    &__copyright {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101%;
+        color: #fff;
+    }
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101%;
+        color: #fff;
+    }
+
+    &___right {
+        column-gap: 18px;
+    }
+
+    &__connection {
+        display: flex;
+    }
+
+    &__icon {
+        width: 27px;
+    }
 }
